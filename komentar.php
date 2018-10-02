@@ -1,7 +1,7 @@
 <form action="" method="POST">
 	Komentar : <input type="text" name="komentar">
 	<input type="submit" name="submit" value="submit">
-	<?php if (isset(var)) {
+	<?php if (isset($err)) {
 		echo $err;
 	} ?>
 </form>
